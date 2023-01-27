@@ -1,5 +1,5 @@
 
-// Set the date we're counting down to
+// Set the time we're counting down to
 var countDownDate = new Date().setHours(12,0,0);
 
 // Update the count down every 1 second
@@ -8,7 +8,7 @@ var x = setInterval(function() {
   // Get today's date and time
   var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
+  // Find the distance between now and the count down time
   var distance = countDownDate - now;
 
   // Time calculations for days, hours, minutes and seconds
